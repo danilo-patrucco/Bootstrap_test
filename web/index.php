@@ -29,4 +29,11 @@ $app->get('/cowsay', function() use($app) {
   return "<pre>".\Cowsayphp\Cow::say("Cool beans")."</pre>";
 });
 
+//times
+
+$app->get('/', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return str_repeat('Hello', getenv('TIMES'));
+});
+
 $app->run();
