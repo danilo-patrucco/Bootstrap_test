@@ -26,7 +26,7 @@ $app->get('/', function() use($app) {
 
 $app->get('/cowsay', function() use($app) {
   $app['monolog']->addDebug('cowsay');
-  return "<pre>".\Cowsayphp\Cow::say("Cool beans")."</pre>";
+  return "<pre>".\Cowsayphp\Cow::say("Cool beams")."</pre>";
 });
 
 //times
@@ -54,7 +54,7 @@ $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider
 
 //Query database_url handlers
 
-$app->get('/dc/', function() use($app) {
+$app->get('/db/', function() use($app) {
   $st = $app['pdo']->prepare('SELECT name FROM test_table');
   $st->execute();
 
