@@ -1,5 +1,9 @@
 body {
   background-image: url("https://thumbs.dreamstime.com/z/programming-source-code-html-website-development-business-program-display-hacker-background-programmer-working-132884282.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 table {
   color: #FFFFFF;
