@@ -54,7 +54,7 @@ $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider
 
 //Query database_url handlers
 
-$app->get('/db/', function() use($app) {
+$app->get('/dc/', function() use($app) {
   $st = $app['pdo']->prepare('SELECT name FROM test_table');
   $st->execute();
 
