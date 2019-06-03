@@ -1,36 +1,21 @@
-.jumbotron {
-  background: #532F8C;
-  color: white;
-  padding-bottom: 80px;
+body {
+  background-image: url("https://thumbs.dreamstime.com/z/programming-source-code-html-website-development-business-program-display-hacker-background-programmer-working-132884282.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
 }
-.jumbotron .btn-primary {
-  background: #845ac7;
-  border-color: #845ac7;
+table {
+  color: #FFFFFF;
+  font-size: 14px;
 }
-.jumbotron .btn-primary:hover {
-  background: #7646c1;
-}
-.jumbotron p {
+p {
   color: #d9ccee;
   max-width: 75%;
   margin: 1em auto 2em;
 }
-.jumbotron h1 {
-  font-size: 40px;
-}
-.navbar + .jumbotron {
-  margin-top: -20px;
-}
-.jumbotron .lang-logo {
-  display: block;
-  background: #B01302;
-  border-radius: 50%;
-  overflow: hidden;
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  border: 2px solid white;
-}
-.jumbotron .lang-logo img {
-  max-width: 100%;
+h1 {
+  color: #FFFFFF;
+  font-size: 26px;
+  text-align:center;
 }
