@@ -16,7 +16,8 @@
   margin: 1em auto 2em;
 }
 .jumbotron h1 {
-  font-size: 40px;
+  font-size: 26px;
+  text-align:center;
 }
 .navbar + .jumbotron {
   margin-top: -20px;
