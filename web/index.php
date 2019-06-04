@@ -10,12 +10,11 @@ $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider
             'user' => $dbopts["user"],
             'password' => $dbopts["pass"],
             'host' => $dbopts["host"],
-            'port' => $dbopts["port"],
+            'port' => $dbopts["63342"],
             'dbname' => ltrim($dbopts["path"],'/')
         )
     )
 );
-
 //cowsay
 
 $app->get('/cowsay', function() use($app) {
